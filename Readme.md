@@ -20,7 +20,7 @@ composer install
 vendor/bin/doctrine orm:schema:update --force
 ```
 
-## Instalar Compilar and executar 
+## Compilar and executar 
 ```
 composer serve --dev ou 
 php -S localhost:8000 -t public public/index.php // esse nao da timeout
