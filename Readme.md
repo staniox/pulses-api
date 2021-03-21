@@ -1,7 +1,3 @@
-para rodar o projeto:
-composer install;
-
-php -S localhost:8080 -t public public/index.php
 # pulses-api
 
 ## Requisitos
@@ -20,7 +16,7 @@ composer install
 vendor/bin/doctrine orm:schema:update --force
 ```
 
-## Compilar and executar 
+## Compilar e executar 
 ```
 composer serve --dev ou 
 php -S localhost:8000 -t public public/index.php // esse nao da timeout
