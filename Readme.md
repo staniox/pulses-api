@@ -14,7 +14,7 @@ mysql
 ```
 alterar o .env na raiz do projeto
 criar um banco de dados com o mesmo que esta no .env
-rodar compose serve //ele faz tudo e sobe o servidor
+rodar composer serve --dev //ele faz tudo e sobe o servidor cuidado que ele da timeout
 voce pode rodar manualmente tambem:
 composer install
 vendor/bin/doctrine orm:schema:update --force
@@ -22,5 +22,6 @@ vendor/bin/doctrine orm:schema:update --force
 
 ## Instalar Compilar and executar 
 ```
-composer serve ou php -S localhost:8000 -t public public/index.php
+composer serve --dev ou 
+php -S localhost:8000 -t public public/index.php // esse nao da timeout
 ```
